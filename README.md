@@ -1,1 +1,3 @@
-# dataLearn Week 3
+# dataLearn 
+
+About Python,ML, and Data Science learning experience 
