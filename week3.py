@@ -60,8 +60,8 @@ my_dict = {
 df = pd.DataFrame(my_dict)
 print(df)
 print("\n")
-df["     grade"] = ["+", "+", "-"]
-df_new = df.sort_values(["     grade"])
+df["grade"] = ["+", "+", "-"]
+df_new = df.sort_values(["grade"])
 print(df_new)
 print("\n")
 print(df.describe(include="all"))
