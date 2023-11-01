@@ -19,5 +19,13 @@ df = pd.DataFrame({"column 1": [1, 1], "column 2": [2, 2]})
 print(df.shape)
 print("\n")
 
-random_int = np.random.randint(-5, 6)
+random_int = np.random.randint(-5, 5)
 print(random_int)
+
+import numpy as np
+import pandas as pd
+from sklearn.feature_extraction import text
+from sklearn.metrics.pairwise import cosine_similarity
+
+data = pd.read_csv("netflixData.csv")
+print(data.head())
