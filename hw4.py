@@ -19,9 +19,9 @@ def histogram(dataFrame, column_name):
     data = correct_data[column_name]
     x_axis = np.arange(min(data), max(data) + 1, 1)
     plt.hist(correct_data[column_name], x_axis, color="green", alpha=0.2, edgecolor="g")
-    plt.title("People's Salaries and Age")
-    plt.xlabel(column_name)
-    plt.ylabel("Amount")
+    plt.title("Area Mean")
+    plt.xlabel("ID")
+    plt.ylabel("Area Mean")
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
     plt.show()
